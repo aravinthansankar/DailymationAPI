@@ -1,0 +1,7 @@
+{
+  "name": "dailymationAPI",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
