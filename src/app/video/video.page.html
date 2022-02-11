@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title> Dailymation Feed Page </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card mode="ios">
+          <ion-card-header>
+            <img [src]="Data.thumbnail_480_url" />
+            <h3 class="textOverflow" >{{Data.title}}</h3>
+          </ion-card-header>
+          <ion-card-content>
+            <p class="textOverflow">{{Data.description}}</p>
+          </ion-card-content>
+          <ion-button expand="block"  href="{{Data.embed_url}}">Play Video</ion-button>
+         
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'Video',
+    loadChildren: () => import('./Video/Video.module').then( m => m.VideoPageModule)
+  },
 ];
 
 @NgModule({

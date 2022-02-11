@@ -25,3 +25,24 @@
 #container a {
   text-decoration: none;
 }
+
+ion-card {
+  display: inline-block;
+  max-width: 500px;
+  //margin: 10px auto  ;
+ 
+}
+img{
+height:350px;
+width:100%;
+border-radius: 10px;
+}
+.textOverflow {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 250px;
+}
+ion-row {
+  text-align: center;
+  }
